@@ -30,6 +30,7 @@
 
     Se você tiver o **Expo CLI** instalado, basta rodar o comando:
 
+    ```bash
     expo start
     ```
 
