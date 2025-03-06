@@ -5,8 +5,10 @@ export default function Index(){
     function Msg() {
         window.alert("Bem vindo, Gustavo!")
         return Alert.alert("Bem vindo, Gustavo!")
-
-        //<Button style={} tittle="Exibir Mensagem" onPress={Msg} />
+    }
+    function Login(){
+        let bah : string = "teste Login";
+        return(bah)
     }
     return (
 
@@ -17,12 +19,19 @@ export default function Index(){
                 </Text>
             <a style= {styles.outhertittle}>Teste subtitulo</a>
             <h1>Bah</h1>
-           
+            <Button title="Login" onPress={Msg} />
+
+            <TouchableOpacity style={styles.button} onPress={Login}>
+            <Text style={styles.buttonText}>Registrar-se</Text>
+            </TouchableOpacity>
+
             <Button title="Exibir Mensagem" onPress={Msg} />
 
             <TouchableOpacity style={styles.button} onPress={Msg}>
             <Text style={styles.buttonText}>Saiba mais</Text>
             </TouchableOpacity>
+
+
             
         <Text style={styles.container}>
             MANO
@@ -31,7 +40,6 @@ export default function Index(){
         </View>
         </div>
        
-            
     )    
 }
 const styles = StyleSheet.create({
