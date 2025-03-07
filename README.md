@@ -1,5 +1,9 @@
 # 🛠️ **Minha Aplicação React Native com Expo e TypeScript**
 
+```bash
+npx expo start
+```
+
 ## 🚀 Tecnologias Utilizadas
 
 - **React Native**: A biblioteca popular para criar interfaces móveis com JavaScript/TypeScript.
@@ -31,7 +35,7 @@
     Se você tiver o **Expo CLI** instalado, basta rodar o comando:
 
     ```bash
-    expo start
+    npx expo start
     ```
 
 

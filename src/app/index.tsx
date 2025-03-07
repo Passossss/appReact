@@ -10,6 +10,10 @@ export default function Index(){
         let bah : string = "teste Login";
         return(bah)
     }
+    function Saiba(){
+
+        return Alert.alert("app funcionando" + name)
+    }
     return (
 
             <div>
@@ -27,7 +31,7 @@ export default function Index(){
 
             <Button title="Exibir Mensagem" onPress={Msg} />
 
-            <TouchableOpacity style={styles.button} onPress={Msg}>
+            <TouchableOpacity style={styles.button} onPress={Saiba}>
             <Text style={styles.buttonText}>Saiba mais</Text>
             </TouchableOpacity>
 
